@@ -2,7 +2,12 @@
 This X-Ways Forensics extension automates the export of hashes from an image
 While the extension could be run from the X-Ways gui, it can also be run from the command-line.
 
-<code>D:\XWAYS>"c:\Program Files\X-Ways Forensics\xwb64.exe" "NewCase:D:\XWAYS\test" "AddImage:d:\XWAYS\testdisk.img" "XT:D:\XWAYS\XT_HashExporter.dll" RVS:~ auto</code>
+<code>D:\XWAYS>"c:\Program Files\X-Ways Forensics\xwb64.exe" "NewCase:D:\XWAYS\test" "AddImage:d:\XWAYS\testdisk.img" "AddImage:d:\XWAYS\test2.img" "XT:D:\XWAYS\XT_HashExporter.dll" RVS:~ auto</code>
+
+I thought to automate the process of loading forensic acquisitions, traversing folders and the subsequent RVS with a DLG file created by me, useful before exporting documents and mail. 
+To edit the DLG file, go to the xways GUI.
+
+<code>"C:\xwf21.5\xwforensics64.exe" "NewCase:W:\xways" "AddImage:L:\Digital Corpora\PC\CF\nps-2008-jean.E01" "AddImage:L:\BSidesAmman21\CF\BSidesAmman21.E01" RVS:~ "C:\xwf21.5\XTension\RVS -pre-export documents and mail.dlg" </code>
 
 Details on running this XWF extension can be found on our blog : 
 https://www.politoinc.com/post/introducing-hash-exporter-for-x-ways-automate-your-hash-lists
